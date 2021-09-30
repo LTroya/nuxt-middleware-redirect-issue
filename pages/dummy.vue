@@ -9,7 +9,6 @@
 <script>
 export default {
   middleware({ route, redirect }) {
-    console.log(process.static);
     if (process.static) {
       return;
     }
